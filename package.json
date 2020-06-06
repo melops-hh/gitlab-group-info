@@ -1,0 +1,19 @@
+{
+  "name": "gitlab-repos",
+  "version": "1.0.0",
+  "description": "Get information about dev and master branch of all repositories in a Gitlab project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "gitlab",
+    "superagent"
+  ],
+  "author": "melops_hh <l0t0f84@melops.33mail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "superagent": "^5.2.2"
+  }
+}
